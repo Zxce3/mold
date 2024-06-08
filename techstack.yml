@@ -1,0 +1,255 @@
+repo_name: Zxce3/mold
+report_id: a90881cef5a363cf55174e43c26db23c
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-08T17:14:24+00:00'
+requested_by: rui314
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Zxce3/mold
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/zlib/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+  detection_source: third-party/zlib/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2022-08-07 05:42:05.000000000 Z
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/Zxce3/mold
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/blake3/Cargo.toml
+  detection_source: third-party/blake3/Cargo.toml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2023-08-16 02:44:30.000000000 Z
+- name: Lua
+  description: Powerful, fast, lightweight, embeddable scripting language
+  website_url: http://www.lua.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/zstd/contrib/premake/premake4.lua
+  detection_source: third-party/zstd/contrib/premake/premake4.lua
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2022-09-13 06:40:11.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/blake3/b3sum/Cargo.toml
+  detection_source: third-party/blake3/b3sum/Cargo.toml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2023-08-16 02:44:30.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/zlib/contrib/nuget/nuget.csproj
+  detection_source: third-party/zlib/contrib/nuget/nuget.csproj
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2024-04-19 04:01:14.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/zlib/contrib/nuget/nuget.csproj
+  detection_source: third-party/zlib/contrib/nuget/nuget.csproj
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2024-04-19 04:01:14.000000000 Z
+- name: Serde
+  description: Serialization framework for Rust
+  website_url: https://serde.rs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/11028/no-img-open-source.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/blake3/Cargo.toml
+  detection_source: third-party/blake3/Cargo.toml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2024-04-19 03:25:41.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/mimalloc/azure-pipelines.yml
+  detection_source: third-party/mimalloc/azure-pipelines.yml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2021-06-27 07:59:21.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/Zxce3/mold
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/zstd/.circleci/images/primary/Dockerfile
+  detection_source: third-party/zstd/.circleci/images/primary/Dockerfile
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2022-09-13 06:40:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Zxce3/mold
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/.github/workflows/build-all.yml
+  detection_source: ".github/workflows/build-all.yml"
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2023-11-17 06:35:58.000000000 Z
+- name: Hex
+  description: Package manager for the Erlang ecosystem
+  website_url: https://hex.pm/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/5210/6621265.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/blake3/Cargo.toml
+  detection_source: third-party/blake3/Cargo.toml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2023-08-16 02:44:30.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/blake3/b3sum/Cargo.toml
+  detection_source: third-party/blake3/b3sum/Cargo.toml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2023-08-16 02:44:30.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/xxhash/.travis.yml
+  detection_source: third-party/xxhash/.travis.yml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2021-12-18 03:42:16.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/mimalloc/ide/vs2017/mimalloc.sln
+  detection_source: third-party/mimalloc/ide/vs2017/mimalloc.sln
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2023-06-29 03:23:39.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Zxce3/mold/blob/main/third-party/blake3/Cargo.toml
+  detection_source: third-party/blake3/Cargo.toml
+  last_updated_by: Rui Ueyama
+  last_updated_on: 2023-08-16 02:44:30.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Zxce3/mold
+  detection_source: Repo Metadata
